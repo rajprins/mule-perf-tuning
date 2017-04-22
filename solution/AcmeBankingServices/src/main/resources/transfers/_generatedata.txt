@@ -1,0 +1,7 @@
+URL:
+http://www.freedatagenerator.com/script-data-generator
+
+Expression:
+{{repeat:2000}}
+TR_AMOUNT={{number,min:1,max:5000}};FROM_ACCOUNT=AB000{{number,min:1000,max:9999}};TO_ACCOUNT=AB000{{number,min:1000,max:9999}};TR_DATE=2017-04-18
+{{/}}
